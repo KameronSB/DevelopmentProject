@@ -44,5 +44,24 @@ namespace Irish_Woollens_co_operative_e_commerce.Models
 
         //methods
 
+        //find method
+        public Boolean find(int id)
+        {
+
+            return true;
+        }
+
+        //validate method
+        public String Validate(int id, String name, String description, int price)
+        {
+            String error = "";
+            if (id > 0)
+            {
+                error = error + "is valid as it is bigger then 0.";
+            }
+
+            return error;
+        }
+
     }
 }
