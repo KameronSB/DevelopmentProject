@@ -6,7 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Models\Testing\" />
+    <Compile Remove="Models\Testing\**" />
+    <Content Remove="Models\Testing\**" />
+    <EmbeddedResource Remove="Models\Testing\**" />
+    <None Remove="Models\Testing\**" />
   </ItemGroup>
 
 </Project>
