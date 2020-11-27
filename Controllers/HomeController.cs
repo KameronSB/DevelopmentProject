@@ -18,6 +18,10 @@ namespace Irish_Woollens_co_operative_e_commerce.Controllers
             _logger = logger;
         }
 
+        public HomeController()
+        {
+        }
+
         public IActionResult Index()
         {
             return View();
